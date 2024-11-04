@@ -1,0 +1,13 @@
+﻿@model List<Gato>
+@{
+    ViewData["Title"] = "Gato";
+}
+<h1>Nombre de los gatos</h1>
+
+<ul>
+    @foreach(var gato in Model)
+    {
+        <li>@gato.Nombre @gato.Apellido</li>
+    }
+
+</ul>

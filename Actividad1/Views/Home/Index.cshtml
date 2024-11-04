@@ -1,0 +1,12 @@
+﻿@model Empleado
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h1>Detalles del Empleado</h1>
+
+<p><strong>ID:</strong> @Model.Id</p>
+<p><strong>Nombre Completo:</strong> @Model.NombreCompleto</p>
+<p><strong>Fecha de Contratación:</strong> @Model.FechaContratacion</p>
+<p><strong>Salario:</strong> @Model.Salario</p>
+<p><strong>Edad:</strong> @ViewBag.EdadDelEmpleado</p>
